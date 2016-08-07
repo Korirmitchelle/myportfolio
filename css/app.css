@@ -341,3 +341,39 @@ div.bl-panel-items > div.bl-hide-current-work {
     transform: scale(0.5);
     opacity: 0;
 }
+.bl-box {
+    -webkit-transition: opacity 0.2s linear 0.5s;
+    -moz-transition: opacity 0.2s linear 0.5s;
+    transition: opacity 0.2s linear 0.5s;
+}
+section.bl-expand .bl-box {
+    opacity: 0;
+    -webkit-transition: opacity 0s linear;
+    -moz-transition: opacity 0s linear;
+    transition: opacity 0s linear;
+}
+.bl-box h2 {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.no-touch section:not(.bl-expand) .bl-box:hover h2 {
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+}
+.bl-content,
+.fa-arrow-left {
+    -webkit-transition: opacity 0.1s linear 0s;
+    -moz-transition: opacity 0.1s linear 0s;
+    transition: opacity 0.1s linear 0s;
+}
+section.bl-expand .bl-content,
+section.bl-expand .fa-arrow-left {
+    pointer-events: auto;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s linear 0.5s;
+    -moz-transition: opacity 0.3s linear 0.5s;
+    transition: opacity 0.3s linear 0.5s;
+}
