@@ -89,3 +89,43 @@ body {
     -ms-flex-align: center;
     align-items: center;
 }
+.fa {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+}
+.fa:before {
+    display: block;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.fa-info-circle:before {
+    content: "\e000";
+}
+.fa-briefcase:before {
+    content: "\e001";
+}
+.fa-book:before {
+    content: "\e002";
+}
+.fa-phone-square:before {
+    content: "\e003";
+}
+.fa-arrow-left {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 100;
+    pointer-events: none;
+    opacity: 0;
+}
+.fa-arrow-left:before {
+    content: "\e005";
+}
