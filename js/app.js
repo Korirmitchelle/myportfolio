@@ -16,6 +16,17 @@ var Boxlayout = (function () {
         isAnimating = false,
         // close work panel trigger
         $closeWorkItem = $workPanelsContainer.find('nav > span.fa-arrow-left'),
+        transEndEventNames = {
+            'WebkitTransition': 'webkitTransitionEnd',
+            'MozTransition': 'transitionend',
+            'OTransition': 'oTransitionEnd',
+            'msTransition': 'MSTransitionEnd',
+            'transition': 'transitionend'
+        },
+        // transition end event name
+        transEndEventName = transEndEventNames[Modernizr.prefixed('transition')],
+        // support css transitions
+        supportTransitions = Modernizr.csstransitions;
 
 
 })();
