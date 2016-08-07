@@ -377,3 +377,24 @@ section.bl-expand .fa-arrow-left {
     -moz-transition: opacity 0.3s linear 0.5s;
     transition: opacity 0.3s linear 0.5s;
 }
+@media screen and (max-width: 46.5em) {
+    .bl-content,
+    .bl-box {
+        font-size: 75%;
+    }
+    .bl-box {
+        align-items: center;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0 0 0 20px;
+        min-width: 100%!important;
+        border: 1px solid #c2c2c2;
+    }
+    .bl-expand .bl-box {
+        height: 130px;
+    }
+    .bl-content > ul li {
+        width: 40%;
+    }
+}
