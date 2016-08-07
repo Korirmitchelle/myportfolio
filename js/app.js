@@ -15,7 +15,7 @@ var Boxlayout = (function () {
         // if currently navigating the work items
         isAnimating = false,
         // close work panel trigger
-        $closeWorkItem = $workPanelsContainer.find('nav > span.fa-arrow-left'),
+        $closeWorkItem = $workPanelsContainer.find('nav > span.fa-hand-scissors-o'),
         transEndEventNames = {
             'WebkitTransition': 'webkitTransitionEnd',
             'MozTransition': 'transitionend',

@@ -47,23 +47,29 @@ a:hover {
 }
 .bl-main > section:first-child {
     top: 0;
+    /*about me*/
     left: 0;
     background: #7f345a;
 }
 .bl-main > section:nth-child(2) {
     top: 0;
     left: 50%;
+    /* projects*/
     background: #331524;
 }
 .bl-main > section:nth-child(3) {
     top: 50%;
     left: 0;
+    /* blogs*/
     background: #331524;
 }
 .bl-main > section:nth-child(4) {
     top: 50%;
     left: 50%;
+    /*contact me*/
     background: #7f345a;
+    background-image: url(../images/back1.jpg);
+    background-size: cover;
 }
 .bl-box {
     position: relative;
@@ -255,7 +261,7 @@ div.bl-panel-items > div {
 div.bl-panel-items nav {
     position: absolute;
     z-index: 9999;
-    width: 216px;
+    width: 250px;
     left: 50%;
     top: 0px;
     margin-left: -108px;
@@ -277,18 +283,18 @@ div.bl-panel-items nav span.fa-hand-o-right {
     cursor: pointer;
     margin-right: 2em;
 }
-div.bl-panel-items nav span.fa-arrow-left {
+div.bl-panel-items nav span.fa-hand-scissors-o {
     font-weight: 700;
     letter-spacing: 2px;
     display: block;
     text-transform: uppercase;
     line-height: 2em;
     cursor: pointer;
-    margin-right: 2em;
+    margin-right: 1em;
 }
 div.bl-panel-items.bl-panel-items-show nav {
     opacity: 1;
-    top: -70px;
+    top: -80px;
 }
 div.bl-panel-items > div.bl-show-work {
     z-index: 1000;
@@ -337,6 +343,8 @@ div.bl-panel-items > div.bl-hide-current-work {
 }
 .bl-main > section:nth-child(4).bl-expand {
     background: #0D8278;
+    background-image: url(../images/back1.jpg);
+    background-size: cover;
 }
 .bl-main.bl-expand-item > section:not(.bl-expand),
 .bl-main.bl-expand-item > section.bl-scale-down {
