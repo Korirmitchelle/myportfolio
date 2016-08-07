@@ -235,3 +235,27 @@ div.bl-panel-items {
     top: 100%;
     z-index: 9999;
 }
+div.bl-panel-items > div {
+    background: #3ba5db;
+    z-index: 0;
+    opacity: 0;
+    -webkit-transform: translateY(0);
+    -webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 0s linear 0.5s;
+    -moz-transform: translateY(0);
+    -moz-transition: -moz-transform 0.5s ease-in-out, opacity 0s linear 0.5s;
+    transform: translateY(0);
+    transition: transform 0.5s ease-in-out, opacity 0s linear 0.5s;
+    -ms-transform: translateY(0);
+}
+div.bl-panel-items nav {
+    position: absolute;
+    z-index: 9999;
+    width: 216px;
+    left: 50%;
+    top: 0px;
+    margin-left: -108px;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease-in-out 0.5s;
+    -moz-transition: opacity 0.2s ease-in-out 0.5s;
+    transition: opacity 0.2s ease-in-out 0.5s;
+}
