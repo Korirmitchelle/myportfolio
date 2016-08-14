@@ -50,7 +50,7 @@ a:hover {
     /*about me*/
     left: 0;
     background: #7f345a;
-    background-image: url(../images/about.png);
+    background-image: url(../images/face.jpg);
     background-size: cover;
 }
 .bl-main > section:nth-child(2) {
@@ -58,7 +58,7 @@ a:hover {
     left: 50%;
     /* projects*/
     background: #331524;
-    background-image: url(../images/back6jpeg);
+    background-image: url(../images/projects.JPG);
     background-size: cover;
 }
 .bl-main > section:nth-child(3) {
@@ -66,7 +66,7 @@ a:hover {
     left: 0;
     /* blogs*/
     background: #331524;
-    background-image: url(../images/face.jpg);
+    background-image: url(../images/fuschia%20bk.jpg);
     background-size: cover;
 }
 .bl-main > section:nth-child(4) {
@@ -74,7 +74,7 @@ a:hover {
     left: 50%;
     /*contact me*/
     background: #7f345a;
-    background-image: url(../images/back1-min.jpg);
+    background-image: url(../images/back7.jpg);
     background-size: cover;
 }
 .bl-box {
@@ -343,23 +343,23 @@ div.bl-panel-items > div.bl-hide-current-work {
 }
 .bl-main > section:first-child.bl-expand {
     background: #331524;
-    background-image: url(../images/about.png);
+    background-image: url(../images/face.jpg);
     background-size: cover;
     background-color: rgba(200, 200, 200, 0.9);
 }
 .bl-main > section:nth-child(2).bl-expand {
     background: #F98262;
-    background-image: url(../images/back6jpeg);
+    background-image: url(../images/projects.JPG);
     background-size: cover;
 }
 .bl-main > section:nth-child(3).bl-expand {
     background: #4BBE8E;
-    background-image: url(../images/face.jpg);
+    background-image: url(../images/fuschia%20bk.jpg);
     background-size: cover;
 }
 .bl-main > section:nth-child(4).bl-expand {
     background: #0D8278;
-    background-image: url(../images/back1-min.jpg);
+    background-image: url(../images/back7.jpg);
     background-size: cover;
 }
 .bl-main.bl-expand-item > section:not(.bl-expand),
