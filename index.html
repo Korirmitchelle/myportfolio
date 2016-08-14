@@ -12,9 +12,35 @@
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 
     <script src="js/modernizr.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+    <script>
+        // Wait for window load
+        $(window).load(function() {
+            // Animate loader off screen
+            $(".myloader").fadeOut("slow");;
+        });
+
+    </script>
 </head>
 
 <body>
+    <!--<section class="loader">
+    <div class="myloader">
+
+        <section class="main">
+            the component
+            <ul class="bokeh">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+        </section>
+    </div>
+</section>-->
     <div class="container">
         <!--container to hold content-->
         <div id="bl-main" class="bl-main">
