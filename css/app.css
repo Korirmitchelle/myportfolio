@@ -267,6 +267,9 @@ div.bl-panel-items > div > div {
     font-size: 1.7em;
     line-height: 1.8;
 }
+.blog p a{
+    background-color: blac
+}
 
 .bl-content h2 {
     font-size: 3em;
@@ -440,6 +443,10 @@ div.bl-panel-items > div.bl-hide-current-work {
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+}
+article a{
+    color: #fff;
+
 }
 
 .bl-main > section.bl-expand {
