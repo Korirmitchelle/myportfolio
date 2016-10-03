@@ -57,17 +57,19 @@ a:hover {
     top: 0;
     /*about me*/
     left: 0;
-
-    background-image: url(../images/face.jpg);
-
+    background-color: #443734;
+    /*background-image: url(../images/face.jpg);*/
     background-size: cover;
 }
 
 .bl-main > section:nth-child(2) {
     top: 0;
     left: 50%;
+    background-color: #DC143C;
     /* projects*/
+/*
     background-image: url(../images/projects.JPG);
+*/
     background-size: cover;
 }
 
@@ -75,7 +77,11 @@ a:hover {
     top: 50%;
     left: 0;
     /* blogs*/
+        background-color: #DC143C;
+
+/*
     background-image: url(../images/fuschia%20bk.jpg);
+*/
     background-size: cover;
 }
 
@@ -83,7 +89,10 @@ a:hover {
     top: 50%;
     left: 50%;
     /*contact me*/
+    background-color: #443734;
+/*
     background-image: url(../images/back7.jpg);
+*/
     background-size: cover;
 }
 
@@ -125,7 +134,8 @@ a:hover {
     transition: all 0.5s;
 }
 
-.bl-box img {
+
+/*.bl-box img {
     height: 100%;
     width: 100%;
     -webkit-transition: all 0.5s;
@@ -138,15 +148,21 @@ a:hover {
     -ms-transform: scale(1.08);
     -webkit-transform: scale(1.08);
     transform: scale(1.08);
-}
+}*/
 
-.bl-box img:hover {
+
+/*.bl-box img:hover {
     height: 100%;
     margin-left: -87px;
     margin-top: -19px;
     transform: translateY(-10%) rotate(-45deg) scale(1.3);
     transition: all 0.5s ease 0s;
     width: 134%;
+}*/
+
+.bl-box:hover {
+    background: linear-gradient( rgba(245,245,245,0.3), rgba(245,245,245,0.3));
+    border: 8px solid #FFF;
 }
 
 .bl-box .view-caption:hover {
@@ -472,11 +488,67 @@ div.bl-panel-items > div.bl-hide-current-work {
     transition: opacity 0.2s linear 0.5s;
 }
 
+#contact {
+    width: 24em;
+    height: 24em;
+    padding: 2.8em;
+    position: relative;
+    border-radius: 50%;
+    border: dashed 1px;
+    margin: 1.75em auto 0;
+}
+
+#contact i {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 4em;
+    height: 4em;
+}
+
+.env {
+    transform: rotate(0) translate(12em) rotate(-0);
+}
+
+.phn {
+    transform: rotate(90) translate(67em) rotate(-90);
+}
+
+.slck {
+    transform: rotate(180) translate(12em) rotate(-180);
+    ''
+}
+
+.lnkd {
+    transform: rotate(270) translate(12em) rotate(-270);
+}
+
+.dot {
+    position: absolute;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+    background: rebeccapurple;
+}
+
+
+/*#contact fa {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}*/
+
 section.bl-expand .bl-box {
     opacity: 0;
     -webkit-transition: opacity 0s linear;
     -moz-transition: opacity 0s linear;
     transition: opacity 0s linear;
+    "''"
 }
 
 .bl-box h2 {
@@ -504,8 +576,8 @@ section.bl-expand .fa-arrow-left {
     pointer-events: auto;
     opacity: 1;
     -webkit-transition: opacity 0.3s linear 0.5s;
-    -moz-transition: opacity 0.3s linear 0.5s;
-    transition: opacity 0.3s linear 0.5s;
+    '  -moz-transition: opacity 0.3s linear 0.5s;
+ transition: opacity 0.3s linear 0.5s;
 }
 
 @media screen and (max-width: 46.5em) {

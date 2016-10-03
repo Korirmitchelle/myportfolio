@@ -52,7 +52,6 @@
             <section>
                 <div class="bl-box">
                     <!--all menu in a box-->
-                    <img src="images/face.jpg" alt="">
                     <h2><i class="fa fa-info-circle" aria-hidden="true"><p>About</p></i></h2>
                     <figcaption class="view-caption">
               <a href="#">View+</a>
@@ -158,11 +157,27 @@
                 </div>
                 <div class="bl-content">
                     <h2>Get in touch</h2>
-                    <form>
+                   <!-- <form>
                        Name: <input type="text" name="Name">
                        Email:<input type="email" name="Email Adress">
                        Message:<input type="text" name="Message">
-                    </form>
+                    </form>-->
+                    <div id="contact">
+<!--
+                      <div class="dot"></div>
+-->
+
+                    <h1><i class="fa fa-envelope-o env" aria-hidden="true"><p>Email</p></i>
+</h1>
+               <h1><i class="fa fa-phone phn" aria-hidden="true"></i><p>Call</p>
+</h1>
+               <h1><i class="fa fa-slack slck" aria-hidden="true"></i><p>Slack</p>
+</h1>
+               <h1><i class="fa fa-linkedin lnkd" aria-hidden="true"></i> <p>LinkedIn</p>
+
+</h1>
+                </div>
+
                 </div>
                 <span class="fa fa-arrow-left" aria-hidden="true"></span>
             </section>
@@ -220,8 +235,10 @@
        </div>
     </div>
     <!-- /container -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+    <script src="js/vendor/jquery.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/icons.js"></script>
     <script>
         $(function() {
             Boxlayout.init();
