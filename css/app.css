@@ -35,9 +35,10 @@ a {
 a:hover {
     color: #fff;
 }
-
+/*set display of container tonone to hide the main section*/
 .container {
     height: 100%;
+    display: none;
 }
 
 .bl-main {
