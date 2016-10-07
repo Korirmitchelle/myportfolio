@@ -11,5 +11,5 @@ var animateText = function (target, message, index, interval) {
 
 
 $(function () {
-    animateText("#intromessage", "Hi,My name is Mitchelle. Welcome to my world!", 0, 500);
+    animateText("#intromessage", "Hi,My name is Mitchelle. Welcome to my world!", 0, 100);
 });
