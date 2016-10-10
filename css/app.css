@@ -451,7 +451,7 @@ article a {
     background-size: cover;*/
 }
 .bl-main > section:nth-child(2).bl-expand {
-   /* background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.45)),
+    /* background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.45)),
  url(../images/projects.JPG);
  background-size: cover;*/
 }
