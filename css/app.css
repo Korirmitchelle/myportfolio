@@ -186,7 +186,7 @@ a:hover {
 }*/
 
 .bl-box:hover {
-    background: linear-gradient( rgba(245, 245, 245, 0.3), rgba(245, 245, 245, 0.3));
+    background: linear-gradient( rgba(0, 0, 245, 0.3), rgba(0, 0, 245, 0.3));
     /*border: 8px solid #FFF;*/
 }
 .bl-box .view-caption:hover {

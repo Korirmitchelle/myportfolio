@@ -1,5 +1,6 @@
-.row {
+.intropage {
     height: 100%;
+    width: 100%;
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.45)), url(../images/introimage.jpg);
     background-size: cover;
     text-align: center;
@@ -8,4 +9,10 @@
     font-size: 50px;
     font-weight: 100;
     color: white;
+}
+@media screen and (max-width: 46.5em) {
+    .intromessage {
+        font-size: 75%;
+        text-align: center !important;
+    }
 }
