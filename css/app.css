@@ -63,35 +63,46 @@ a:hover {
     top: 0;
     /*about me*/
     left: 0;
-    background-color: #443734;
+    background-color: #333;
     /*background-image: url(../images/face.jpg);*/
     background-size: cover;
 }
 .bl-main > section:nth-child(2) {
     top: 0;
     left: 50%;
-    background-color: #DC143C;
+    background-color: white;
+    color: black;
     /* projects*/
     /*
     background-image: url(../images/projects.JPG);
 */
     background-size: cover;
 }
+.bl-main > section:nth-child(2) .fa-cog {
+    color: black;
+}
 .bl-main > section:nth-child(3) {
     top: 50%;
     left: 0;
     /* blogs*/
-    background-color: #DC143C;
+    background-color: white;
     /*
     background-image: url(../images/fuschia%20bk.jpg);
 */
     background-size: cover;
+    color: black;
+}
+.bl-main > section:nth-child(3).fa-cog {
+    color: black;
+}
+.bl-main > section:nth-child(3) figcaption {
+    color: red;
 }
 .bl-main > section:nth-child(4) {
     top: 50%;
     left: 50%;
     /*contact me*/
-    background-color: #443734;
+    background-color: #333;
     /*
     background-image: url(../images/back7.jpg);
 */
@@ -176,7 +187,7 @@ a:hover {
 
 .bl-box:hover {
     background: linear-gradient( rgba(245, 245, 245, 0.3), rgba(245, 245, 245, 0.3));
-    border: 8px solid #FFF;
+    /*border: 8px solid #FFF;*/
 }
 .bl-box .view-caption:hover {
     text-align: right;
@@ -434,20 +445,24 @@ article a {
     z-index: 100;
 }
 .bl-main > section:first-child.bl-expand {
-    background: linear-gradient( rgba(128, 0, 0, 0.3), rgba(128, 0, 0, 0.45)), url(../images/face.jpg);
-    background-size: cover;
+    background-color: white;
+    color: black;
+    /* background: linear-gradient( rgba(128, 0, 0, 0.3), rgba(128, 0, 0, 0.45)), url(../images/face.jpg);
+    background-size: cover;*/
 }
 .bl-main > section:nth-child(2).bl-expand {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.45)), url(../images/projects.JPG);
-    background-size: cover;
+   /* background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.45)),
+ url(../images/projects.JPG);
+ background-size: cover;*/
 }
 .bl-main > section:nth-child(3).bl-expand {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.45)), url(../images/fuschia%20bk.jpg);
-    background-size: cover;
+    /*background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.45)), url(../images/fuschia%20bk.jpg);
+    background-size: cover;*/
 }
 .bl-main > section:nth-child(4).bl-expand {
-    background: linear-gradient( rgba(128, 0, 0, 0.3), rgba(128, 0, 0, 0.45)), url(../images/back7.jpg);
-    background-size: cover;
+    /*background: linear-gradient( rgba(128, 0, 0, 0.3), rgba(128, 0, 0, 0.45)),
+url(../images/back7.jpg);
+background-size: cover;*/
 }
 .bl-main.bl-expand-item > section:not(.bl-expand),
 .bl-main.bl-expand-item > section.bl-scale-down {
