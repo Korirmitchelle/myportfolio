@@ -450,6 +450,9 @@ article a {
     /* background: linear-gradient( rgba(128, 0, 0, 0.3), rgba(128, 0, 0, 0.45)), url(../images/face.jpg);
     background-size: cover;*/
 }
+.bl-main > section:first-child.bl-expand img {
+    float: right;
+}
 .bl-main > section:nth-child(2).bl-expand {
     /* background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.45)),
  url(../images/projects.JPG);
