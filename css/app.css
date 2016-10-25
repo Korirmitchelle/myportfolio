@@ -495,10 +495,18 @@ background-size: cover;*/
     height: 4em;
 }*/
 
-.slack,
-.email,
-.slack,
-.call,
+.slack:hover {
+    background: linear-gradient( rgba(0, 0, 245, 0.3), rgba(0, 0, 245, 0.3));
+}
+.email:hover {
+    background: linear-gradient( rgba(0, 0, 245, 0.3), rgba(0, 0, 245, 0.3));
+}
+.slack:hover {
+    background: linear-gradient( rgba(0, 0, 245, 0.3), rgba(0, 0, 245, 0.3));
+}
+.call:hover {
+    background: linear-gradient( rgba(0, 0, 245, 0.3), rgba(0, 0, 245, 0.3));
+}
 .linked:hover {
     background: linear-gradient( rgba(0, 0, 245, 0.3), rgba(0, 0, 245, 0.3));
 }
@@ -512,7 +520,7 @@ background-size: cover;*/
     text-align: center;
     margin-left: 2%;
     float: left;
-    border: 2px solid #fff;
+    border: 8px solid #333;
     border-radius: 100px;
     background-color: cadetblue;
     /*
