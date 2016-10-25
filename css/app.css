@@ -550,7 +550,6 @@ section.bl-expand .bl-box {
     -webkit-transition: opacity 0s linear;
     -moz-transition: opacity 0s linear;
     transition: opacity 0s linear;
-    "''"
 }
 .bl-box h2 {
     -webkit-transition: all 0.2s ease-in-out;
