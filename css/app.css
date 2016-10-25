@@ -463,6 +463,8 @@ article a {
     background-size: cover;*/
 }
 .bl-main > section:nth-child(4).bl-expand {
+    background-color: white;
+    color: black;
     /*background: linear-gradient( rgba(128, 0, 0, 0.3), rgba(128, 0, 0, 0.45)),
 url(../images/back7.jpg);
 background-size: cover;*/
@@ -480,15 +482,10 @@ background-size: cover;*/
     -moz-transition: opacity 0.2s linear 0.5s;
     transition: opacity 0.2s linear 0.5s;
 }
-/*#contact {
-    width: 24em;
-    height: 24em;
-    padding: 2.8em;
-    position: relative;
-    border-radius: 50%;
-    border: dashed 1px;
-    margin: 1.75em auto 0;
-}*/
+#contact {
+    width: 100%;
+}
+
 /*#contact i {
     display: block;
     position: absolute;
@@ -497,19 +494,31 @@ background-size: cover;*/
     width: 4em;
     height: 4em;
 }*/
-/*.env {
+
+.slack,
+.email,
+.slack,
+.call,
+.linked:hover {
+    background: linear-gradient( rgba(0, 0, 245, 0.3), rgba(0, 0, 245, 0.3));
+}
+.slack,
+.email,
+.slack,
+.call,
+.linked {
+    width: 20%;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 2%;
+    float: left;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    background-color: cadetblue;
+    /*
     transform: rotate(0) translate(12em) rotate(-0);
+*/
 }
-.phn {
-    transform: rotate(90) translate(67em) rotate(-90);
-}
-.slck {
-    transform: rotate(180) translate(12em) rotate(-180);
-    ''
-}
-.lnkd {
-    transform: rotate(270) translate(12em) rotate(-270);
-}*/
 .dot {
     position: absolute;
     border-radius: 100%;
