@@ -596,4 +596,11 @@ section.bl-expand .fa-arrow-left {
     .bl-content > ul li {
         width: 40%;
     }
+    .slack,
+    .email,
+    .slack,
+    .call,
+    .linked {
+        width: 100%;
+    }
 }
